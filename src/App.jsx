@@ -1,14 +1,10 @@
-import Layout from "./components/Layout";
-import Navbar from "./components/navigation/Navbar";
 import Login from "./pages/Login";
-import SigninForm from "./components/forms/SigninForm"
+import Home from "./pages/Home";
 
 function App() {
    return (
       <div>
-         {/* <Navbar/>
-         <Layout/> */}
-         <Login/>
+         <Home/>
       </div>
    );
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import ImageComponent from "./ImageComponent";
 
 const Layout = () => {
@@ -10,8 +9,8 @@ const Layout = () => {
       "https://images.unsplash.com/photo-1649859398021-afbfe80e83b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
    ];
    return (
-      <div className="p-4">
-         <div className="sm:columns-3 md:columns-4 xl:columns-5 gap-4 mx-auto space-y-4 pb-20 ">
+      <div className="py-4 px-10">
+         <div className="sm:columns-3 md:columns-4 xl:columns-5 gap-5 mx-auto space-y-5 pb-20 ">
             {Images.map((value, index) => {
                return <ImageComponent key={index} image={value} />;
             })}

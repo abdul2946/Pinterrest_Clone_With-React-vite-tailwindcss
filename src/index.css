@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .my-input{
-   @apply my-3 px-3 py-2 bg-white border-b-2 text-sm focus:outline-none focus:border-rose-400 focus:placeholder-transparent placeholder:text-rose-200 hover:border-rose-200 place-self-center
+   @apply my-3 px-3 py-2 border-b-2 text-sm focus:outline-none focus:border-rose-400 focus:placeholder-transparent placeholder:text-rose-200 hover:border-rose-200 place-self-center
 }

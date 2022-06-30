@@ -1,9 +1,8 @@
-import React from "react";
 
 const Slogan = () => {
    return (
       <div>
-         <div className="text-center py-20">
+         <div className="text-center py-40 px-1">
             <h1 className="font-bold text-4xl">
                <span className="text-rose-500"> Welcome</span> To Pinterest
                Clone
