@@ -3,6 +3,7 @@ import Slogan from "../components/forms/Slogan";
 import SigninForm from "../components/forms/SigninForm";
 import SignupForm from "../components/forms/SignupForm";
 import ForgotPassword from "../components/forms/ForgotPassword";
+import EnterCode from "../components/forms/EnterCode";
 
 const Login = () => {
    return (
@@ -14,6 +15,7 @@ const Login = () => {
                   <Route path="/" element={<SigninForm />} />
                   <Route path="signup" element={<SignupForm />} />
                   <Route path="forgot" element={<ForgotPassword />} />
+                  <Route path="verifycode" element={<EnterCode />} />
                </Routes>
             </div>
          </div>

@@ -16,7 +16,7 @@ const ForgotPassword = () => {
             <br />
 
             <div className="flex justify-between">
-               <button className="primary-btn">Get Code</button>
+               <Link to="/verifycode" className="primary-btn">Get Code</Link>
                <Link
                   to="/"
                   className="font-semibold place-self-center pr-3 text-rose-400 hover:text-rose-300"
