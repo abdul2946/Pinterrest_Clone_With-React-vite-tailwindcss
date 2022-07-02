@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 const SignupForm = () => {
    return (
       <div>
-         <div className="rounded-lg bg-white px-6 py-10 shadow-lg w-5/6 mx-auto">
+         <div className="rounded-lg bg-white px-6 py-10 shadow-lg w-5/6 mx-auto shadow-rose-100">
 
             <form>
             <label className="font-semibold px-1 py-2">Name</label>
@@ -33,10 +34,10 @@ const SignupForm = () => {
             </form>
             <br />
                <div className="flex justify-between">
-                  <button className="my-1 bg-rose-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-rose-200 hover:bg-rose-400 font-semibold">
+                  <Link to="/home" className="primary-btn">
                      Sign Up
-                  </button>
-                  <a href="#" className="font-semibold place-self-center pr-3 text-rose-400 hover:text-rose-300">Back to Sign In</a>
+                  </Link>
+                  <Link to="/" className="font-semibold place-self-center pr-3 text-rose-400 hover:text-rose-300">Back to Sign In</Link>
                </div>
          </div>
       </div>

@@ -1,7 +1,8 @@
+import { Routes, Link } from "react-router-dom";
 const SigninForm = () => {
    return (
       <div>
-         <div className="rounded-lg bg-white px-6 py-10 shadow-lg w-5/6 mx-auto">
+         <div className="rounded-lg bg-white px-6 py-10 shadow-lg w-5/6 mx-auto shadow-rose-100">
             <form>
                <label className="font-semibold px-1 py-2">Email</label>
                <input
@@ -17,21 +18,21 @@ const SigninForm = () => {
                />
             </form>
             <div className="mt-3">
-               <a
-                  href="#"
+               <Link
+                  to="forgot"
                   className="font-semibold px-2 py-2 text-rose-400 hover:text-rose-300"
                >
                   Forgot Password ?
-               </a>
+               </Link>
             </div>
             <br />
             <div className="flex justify-between">
-               <button className="my-1 bg-rose-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-rose-200 hover:bg-rose-400 font-semibold">
+               <Link to="/home" className="primary-btn">
                   Sign In
-               </button>
-               <button className="my-1 bg-gray-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-gray-200 hover:bg-gray-400 font-semibold">
+               </Link>
+               <Link to="/signup" className="secondary-btn">
                   Sign Up
-               </button>
+               </Link>
             </div>
          </div>
       </div>

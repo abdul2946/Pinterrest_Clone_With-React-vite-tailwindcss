@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-input{
-   @apply my-3 px-3 py-2 border-b-2 text-sm focus:outline-none focus:border-rose-400 focus:placeholder-transparent placeholder:text-rose-200 hover:border-rose-200 place-self-center
+.my-input {
+   @apply my-3 px-3 py-2 border-b-2 text-sm focus:outline-none focus:border-rose-400 focus:placeholder-transparent placeholder:text-rose-200 hover:border-rose-200 place-self-center;
+}
+
+.primary-btn {
+   @apply my-1 bg-rose-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-rose-200 hover:bg-rose-400 font-semibold;
+}
+.secondary-btn {
+   @apply my-1 bg-gray-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:shadow-gray-200 hover:bg-gray-400 font-semibold;
 }
